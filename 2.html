@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>下载页面</title>
+</head>
+<body>
+    <button onclick="downloadFile()">点击下载</button>
+    <a href="path/to/a.txt" id="download-link">点击这里下载文件</a>
+
+    <script>
+        function downloadFile() {
+            var link = document.getElementById('download-link');
+            link.click();
+        }
+    </script>
+</body>
+</html>
